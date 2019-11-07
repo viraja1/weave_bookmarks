@@ -29,7 +29,7 @@ https://arweave.net/5GheiqREIB1iRLa1QXSH3E_hPoRs9HNX2koXaO8gVGk
 * View Bookmarks based on tags
 * Search Bookmarks
 * Delete Bookmarks
-* Sync bookmarks securely across devices
+* Sync Bookmarks securely across devices
 * Bookmarks are encrypted using user's public key using RSA-OAEP and crypto.js
 * Decentralized login
 
