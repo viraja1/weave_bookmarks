@@ -1,0 +1,44 @@
+{
+  "name": "weave-bookmarks",
+  "version": "0.0.1",
+  "description": "Weave Bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p --mode=production"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2",
+    "compression-webpack-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "react-router-dom": "^5.0.1",
+    "react-icons": "^3.7.0",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-stack-grid": "^0.7.1",
+    "react-sizeme": "^2.6.7",
+    "arweave": "^1.5.3",
+    "react-dropzone": "^10.1.9",
+    "react-bootstrap-button-loader": "^2.0.0"
+  }
+}
