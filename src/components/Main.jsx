@@ -121,6 +121,8 @@ export default class Main extends Component {
     tx.addTag('App-Name', appName);
     tx.addTag('App-Version', appVersion);
     tx.addTag('Unix-Time', tagUnixTime);
+    let anchor_id = await arweave.api.get('/tx_anchor').then(x => x.data);
+    tx.last_tx = anchor_id;
     await arweave.transactions.sign(tx, keys);
     arweave.transactions.post(tx)
       .then(() => {
@@ -189,6 +191,8 @@ export default class Main extends Component {
     tx.addTag('App-Name', appName);
     tx.addTag('App-Version', appVersion);
     tx.addTag('Unix-Time', tagUnixTime);
+    let anchor_id = await arweave.api.get('/tx_anchor').then(x => x.data);
+    tx.last_tx = anchor_id;
     await arweave.transactions.sign(tx, keys);
     arweave.transactions.post(tx)
       .then(() => {
